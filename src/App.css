@@ -1,0 +1,308 @@
+.room {
+    width: 100%;
+    background: rgb(255, 255, 255);
+}
+
+.navlin {
+    width: 100%;
+    padding: 17px 40px;
+    display: flex;
+    justify-content: space-between;
+    height: 78px;
+    background: #ff05b6;
+    align-items: center;
+}
+
+.logo_name1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.sign_out {
+    width: 164px;
+    height: 48px;
+    text-align: center;
+    background-color: #1e0db5;
+    color: #fff;
+    border: 0;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.room_enter {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick {
+    width: 100%;
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+}
+
+.room_tag {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    width: 1100px;
+}
+
+.contain {
+    width: 400px;
+    height: 350px;
+    background: #ff05b6;
+    border-radius: 24px;
+    margin-top: 60px;
+    display: grid;
+    justify-content: center;
+    padding: 72px 0px;
+    box-shadow: 0 0 13px #ff05b6;
+}
+
+.label {
+    font-size: 25px;
+    color: #ffff;
+    font-weight: 500;
+}
+
+.room_input {
+    width: 260px;
+    height: 52px;
+    border-radius: 10px;
+    border: 4px solid #1e0db5;
+    padding: 10px 14px;
+    font-size: 17px;
+    font-weight: 600;
+    background: #fff;
+    outline: none;
+}
+
+.enter_room_btn {
+    width: 260px;
+    height: 52px;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px 14px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #1e0db5;
+    cursor: pointer;
+    color: #fff;
+    transition: transform 0.4s ease-in-out;
+}
+
+.enter_room_btn:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (max-width:765px) {
+    .room_tag {
+        font-size: 23px;
+        font-weight: 700;
+        color: #000;
+        text-align: center;
+        width: 517px;
+    }
+
+    .contain {
+        width: 349px;
+        height: 325px;
+        background: #ff05b6;
+        border-radius: 24px;
+        margin-top: 60px;
+        display: grid;
+        justify-content: center;
+        padding: 72px 0px;
+        box-shadow: 0 0 13px #ff05b6;
+    }
+}
+
+@media screen and (max-width:539px) {
+    .room_tag {
+        font-size: 20px;
+        font-weight: 700;
+        color: #000;
+        text-align: center;
+        width: 370px;
+    }
+
+    .contain {
+        width: 282px;
+        height: 249px;
+        background: #ff05b6;
+        border-radius: 24px;
+        margin-top: 60px;
+        display: grid;
+        justify-content: center;
+        padding: 28px 0px;
+        box-shadow: 0 0 13px #ff05b6;
+    }
+
+    .logo_name1 {
+        font-size: 22px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .sign_out {
+        width: 125px;
+        height: 41px;
+        text-align: center;
+        background-color: #1e0db5;
+        color: #fff;
+        border: 0;
+        border-radius: 25px;
+        font-weight: 600;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .navlin {
+        width: 100%;
+        padding: 17px 11px;
+        display: flex;
+        justify-content: space-between;
+        height: 65px;
+        background: #ff05b6;
+        align-items: center;
+    }
+
+    .label {
+        font-size: 21px;
+        color: #ffff;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .room_input {
+        width: 211px;
+        height: 46px;
+        border-radius: 10px;
+        border: 4px solid #1e0db5;
+        padding: 10px 14px;
+        font-size: 16px;
+        font-weight: 600;
+        background: #fff;
+        outline: none;
+    }
+
+    .enter_room_btn {
+        width: 211px;
+        height: 46px;
+        border-radius: 38px;
+        border: 0;
+        padding: 10px 14px;
+        font-size: 20px;
+        font-weight: 600;
+        background: #1e0db5;
+        cursor: pointer;
+        color: #fff;
+        transition: transform 0.4s ease-in-out;
+    }
+
+    .quick {
+        width: 100%;
+        margin-top: 98px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:393px) {
+    .room_tag {
+        font-size: 18px;
+        font-weight: 700;
+        color: #000;
+        text-align: center;
+        width: 267px;
+    }
+
+    .contain {
+        width: 253px;
+        height: 231px;
+        background: #ff05b6;
+        border-radius: 24px;
+        margin-top: 60px;
+        display: grid;
+        justify-content: center;
+        padding: 20px 0px;
+        box-shadow: 0 0 13px #ff05b6;
+    }
+
+    .logo_name1 {
+        font-size: 22px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .sign_out {
+        width: 103px;
+        height: 37px;
+        text-align: center;
+        background-color: #1e0db5;
+        color: #fff;
+        border: 0;
+        border-radius: 25px;
+        font-weight: 600;
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    .navlin {
+        width: 100%;
+        padding: 17px 11px;
+        display: flex;
+        justify-content: space-between;
+        height: 65px;
+        background: #ff05b6;
+        align-items: center;
+    }
+
+    .label {
+        font-size: 20px;
+        color: #ffff;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .room_input {
+        width: 208px;
+        height: 44px;
+        border-radius: 10px;
+        border: 4px solid #1e0db5;
+        padding: 10px 14px;
+        font-size: 16px;
+        font-weight: 600;
+        background: #fff;
+        outline: none;
+    }
+
+    .enter_room_btn {
+        width: 208px;
+        height: 44px;
+        border-radius: 38px;
+        border: 0;
+        padding: 10px 14px;
+        font-size: 20px;
+        font-weight: 600;
+        background: #1e0db5;
+        cursor: pointer;
+        color: #fff;
+        transition: transform 0.4s ease-in-out;
+    }
+
+    .quick {
+        width: 100%;
+        margin-top: 98px;
+        display: flex;
+        justify-content: center;
+    }
+}

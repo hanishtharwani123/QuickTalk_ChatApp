@@ -1,0 +1,551 @@
+.chat {
+    width: 100%;
+    background: rgb(255, 255, 255);
+}
+
+.nav1 {
+    width: 100%;
+    padding: 17px 40px;
+    display: flex;
+    justify-content: space-between;
+    height: 68px;
+    background: #ff05b6;
+    align-items: center;
+}
+
+.logo_name {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.sign_out {
+    width: 155px;
+    height: 45px;
+    text-align: center;
+    background-color: #1e0db5;
+    color: #fff;
+    border: 0;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    padding-bottom: 2.5px;
+}
+
+.chat_room {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.chatbox {
+    width: 800px;
+    height: 608px;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 0 3px #0000001a;
+    background: #ffddf7;
+    overflow: hidden;
+}
+
+.welcome {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #8c006e;
+    margin-top: 14px;
+    margin-bottom: 13px;
+}
+
+.line {
+    border: 1px solid #ffcafbaf;
+}
+
+.input_btn {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    bottom: 0;
+    margin-top: 24px;
+}
+
+.inpt {
+    width: 780px;
+    height: 50px;
+    box-shadow: 0 0 3px #00000038;
+    border-radius: 22px;
+    padding: 14px 51px 14px 18px;
+    font-size: 17px;
+    outline: none;
+    border: 0;
+    color: #242424;
+    font-weight: 500;
+}
+
+.send_icon {
+    width: 22px;
+    cursor: pointer;
+}
+
+.send_btn {
+    background: transparent;
+    border: 0;
+    margin-left: 720px;
+    position: absolute;
+    margin-top: 13px;
+}
+
+.messages {
+    height: 450px;
+    overflow-y: auto;
+    padding: 40px;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+
+.chat {
+    width: 100%;
+    background: rgb(255, 255, 255);
+}
+
+
+.chat_room {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.chatbox {
+    width: 800px;
+    height: 608px;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 0 3px #0000001a;
+    background: #ffccf2;
+    overflow: hidden;
+}
+
+.welcome {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #8c006e;
+    margin-top: 14px;
+    margin-bottom: 13px;
+}
+
+.line {
+    border: 1px solid #ff378c21;
+}
+
+.input_btn {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    bottom: 0;
+    margin-top: 24px;
+}
+
+.inpt {
+    width: 780px;
+    height: 50px;
+    box-shadow: 0 0 3px #00000038;
+    border-radius: 22px;
+    padding: 14px 51px 14px 18px;
+    font-size: 17px;
+    outline: none;
+    border: 0;
+    color: #242424;
+    font-weight: 500;
+}
+
+.send_icon {
+    width: 22px;
+    cursor: pointer;
+}
+
+.send_btn {
+    background: transparent;
+    border: 0;
+    margin-left: 720px;
+    position: absolute;
+    margin-top: 13px;
+}
+
+.messages {
+    height: 450px;
+    overflow-y: auto;
+    padding: 40px;
+    display: grid;
+    grid-gap: 14px;
+}
+
+::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+
+.message {
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    padding: 6px 13px;
+}
+
+.user-container {
+    margin-right: 10px;
+}
+
+.user {
+    font-weight: bold;
+    background: #000;
+    border-radius: 50%;
+    padding: 6px 14px;
+    color: #fff;
+    margin-top: 5px;
+    text-transform: lowercase;
+}
+
+.text {
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 633px;
+    overflow-wrap: break-word;
+}
+
+.sent {
+    align-self: flex-end;
+    background-color: #1e0db5;
+    color: white;
+}
+
+.received {
+    align-self: flex-start;
+    background-color: #ffffff;
+    display: flex;
+    align-items: flex-end;
+}
+
+@media screen and (max-width:851px) {
+    .navlin {
+        width: 100%;
+        padding: 17px 11px;
+        display: flex;
+        justify-content: space-between;
+        height: 68px;
+        background: #ff05b6;
+        align-items: center;
+    }
+
+    .logo_name1 {
+        font-size: 26px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .sign_out {
+        width: 140px;
+        height: 44px;
+        text-align: center;
+        background-color: #1e0db5;
+        color: #fff;
+        border: 0;
+        border-radius: 25px;
+        font-weight: 600;
+        font-size: 19px;
+        cursor: pointer;
+        padding-bottom: 2.5px;
+    }
+
+    .chatbox {
+        width: 554px;
+        height: 608px;
+        border: 0;
+        border-radius: 8px;
+        box-shadow: 0 0 3px #0000001a;
+        background: #ffccf2;
+        overflow: hidden;
+    }
+
+    .inpt {
+        width: 532px;
+        height: 50px;
+        box-shadow: 0 0 3px #00000038;
+        border-radius: 22px;
+        padding: 14px 51px 14px 18px;
+        font-size: 17px;
+        outline: none;
+        border: 0;
+        color: #242424;
+        font-weight: 500;
+    }
+
+    .input_btn {
+        width: 554px;
+        display: flex;
+        justify-content: center;
+        position: sticky;
+        bottom: 0;
+        margin-top: 24px;
+    }
+
+    .send_btn {
+        background: transparent;
+        border: 0;
+        margin-left: 489px;
+        position: absolute;
+        margin-top: 13px;
+    }
+
+    .text {
+        padding: 10px;
+        border-radius: 10px;
+        max-width: 401px;
+        overflow-wrap: break-word;
+    }
+}
+
+@media screen and (max-width:589px) {
+    .navlin {
+        width: 100%;
+        padding: 17px 11px;
+        display: flex;
+        justify-content: space-between;
+        height: 66px;
+        background: #ff05b6;
+        align-items: center;
+    }
+
+    .logo_name1 {
+        font-size: 24px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .sign_out {
+        width: 119px;
+        height: 39px;
+        text-align: center;
+        background-color: #1e0db5;
+        color: #fff;
+        border: 0;
+        border-radius: 25px;
+        font-weight: 600;
+        font-size: 17px;
+        cursor: pointer;
+        padding-bottom: 2.5px;
+    }
+
+    .chatbox {
+        width: 372px;
+        height: 608px;
+        border: 0;
+        border-radius: 8px;
+        box-shadow: 0 0 3px #0000001a;
+        background: #ffccf2;
+        overflow: hidden;
+    }
+
+    .inpt {
+        width: 344px;
+        height: 50px;
+        box-shadow: 0 0 3px #00000038;
+        border-radius: 22px;
+        padding: 14px 51px 14px 18px;
+        font-size: 16px;
+        outline: none;
+        border: 0;
+        color: #242424;
+        font-weight: 500;
+    }
+
+    .input_btn {
+        width: 372px;
+        display: flex;
+        justify-content: center;
+        position: sticky;
+        bottom: 0;
+        margin-top: 24px;
+    }
+
+    .send_btn {
+        background: transparent;
+        border: 0;
+        margin-left: 303px;
+        position: absolute;
+        margin-top: 13px;
+    }
+
+    .text {
+        padding: 10px;
+        border-radius: 10px;
+        max-width: 221px;
+        overflow-wrap: break-word;
+        font-size: 13px;
+    }
+
+    .user {
+        font-weight: bold;
+        background: #000;
+        border-radius: 50%;
+        padding: 6px 14px;
+        color: #fff;
+        margin-top: 2px;
+        text-transform: lowercase;
+    }
+
+    .welcome {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        color: #8c006e;
+        margin-top: 14px;
+        margin-bottom: 13px;
+    }
+
+    .chat_room {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 69px;
+        margin-bottom: 43px;
+
+    }
+}
+
+@media screen and (max-width:393px) {
+    .navlin {
+        width: 100%;
+        padding: 17px 11px;
+        display: flex;
+        justify-content: space-between;
+        height: 66px;
+        background: #ff05b6;
+        align-items: center;
+    }
+
+    .logo_name1 {
+        font-size: 24px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .sign_out {
+        width: 119px;
+        height: 39px;
+        text-align: center;
+        background-color: #1e0db5;
+        color: #fff;
+        border: 0;
+        border-radius: 25px;
+        font-weight: 600;
+        font-size: 17px;
+        cursor: pointer;
+        padding-bottom: 2.5px;
+    }
+
+    .chatbox {
+        width: 275px;
+        height: 623px;
+        border: 0;
+        border-radius: 8px;
+        box-shadow: 0 0 3px #0000001a;
+        background: #ffccf2;
+        overflow: hidden;
+        margin-bottom: 43px;
+    }
+
+    .inpt {
+        width: 262px;
+        height: 47px;
+        box-shadow: 0 0 3px #00000038;
+        border-radius: 22px;
+        padding: 14px 51px 14px 18px;
+        font-size: 16px;
+        outline: none;
+        border: 0;
+        color: #242424;
+        font-weight: 500;
+    }
+
+    .input_btn {
+        width: 275px;
+        display: flex;
+        justify-content: center;
+        position: sticky;
+        bottom: 0;
+        margin-top: 24px;
+    }
+
+    .send_btn {
+        background: transparent;
+        border: 0;
+        margin-left: 212px;
+        position: absolute;
+        margin-top: 15px;
+    }
+
+    .text {
+        padding: 10px;
+        border-radius: 10px;
+        max-width: 166px;
+        overflow-wrap: break-word;
+        font-size: 12px;
+    }
+
+    .user {
+        font-weight: bold;
+        background: #000;
+        border-radius: 50%;
+        padding: 6px 14px;
+        color: #fff;
+        margin-top: 2px;
+        text-transform: lowercase;
+    }
+
+    .messages {
+        height: 484px;
+        overflow-y: auto;
+        padding: 32px 13px;
+        display: grid;
+        grid-gap: 14px;
+    }
+
+    .welcome {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        color: #8c006e;
+        margin-top: 14px;
+        margin-bottom: 13px;
+    }
+
+    .chat_room {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 69px;
+    }
+
+    .send_icon {
+        width: 18px;
+        cursor: pointer;
+    }
+}
