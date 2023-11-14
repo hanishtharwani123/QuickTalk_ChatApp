@@ -67,6 +67,3 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
-
-Make sure to replace `your-username` in the repository URL with your actual GitHub username. Additionally, replace the placeholder for the video thumbnail and link with the actual link to the video thumbnail and the video itself.
