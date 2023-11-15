@@ -1,4 +1,4 @@
-# Quick Talk - Real-time Chat Applicatio
+# Quick Talk - Real-time Chat Application
 
 Quick Talk is a real-time chat application built with React.js and Firebase. Users can sign up, enter a room, and engage in real-time conversations with other users in the same room.
 
